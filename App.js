@@ -1,10 +1,10 @@
-
-import { StyleSheet,  View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import TicTac from "./src/TicTac";
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text>Holle hehe </Text>
       <TicTac />
     </View>
   );
@@ -17,5 +17,4 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-
 });
